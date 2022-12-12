@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 60.2%;
+}
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav{
+    background: rgb(189, 158, 158);
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+button{
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    background: #ccc;
+    border: none;
+    outline: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover{
+    background: chocolate;
+}
+main{
+    background: greenyellow;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+p{
+    color: white;
+    font-size: 2rem;
+    border: 2px solid chocolate;
+    padding: 2rem;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
